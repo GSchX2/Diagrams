@@ -8,4 +8,5 @@ erDiagram
     Channels_users||..o{ Playlist : has
     Playlist}o..|{ Videos : has
     Videos||..o{ Likes : has
+    Channels_users||..o{ Likes : gives
 ```
